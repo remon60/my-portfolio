@@ -1,5 +1,6 @@
 body{
     font-family: 'Roboto', sans-serif;
+    margin: 0px;
 }
 /*Navbar Animation Css*/
 .nav{
@@ -56,6 +57,13 @@ li {
 
   /*Intro Part CSS*/
 
+  .top-section{
+     /* Created with https://www.css-gradient.com */
+    background: #C4FFF7;
+    background: -webkit-linear-gradient(right, #C4FFF7, #E3E497);
+    background: -moz-linear-gradient(right, #C4FFF7, #E3E497);
+    background: linear-gradient(to left, #C4FFF7, #E3E497);;
+  }
   .intro-section h3{
         color:#B3A206;
         font-weight: bold;
