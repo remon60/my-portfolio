@@ -201,3 +201,89 @@ li {
     background: -moz-linear-gradient(right, #FFC4FA, #DDDEB4);
     background: linear-gradient(to left, #FFC4FA, #DDDEB4);
 }
+
+/*Skill Section CSS*/
+.skill-section {
+    padding: 100px 0px;
+    text-align: center;
+}
+
+.skill-part .card {
+    padding: 10px;
+    width: 350px;
+    height: 450px;
+    text-align: center;
+    border-radius: 30px;
+    border-width: 3px;
+}
+
+.skill-part .card h5 {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.skill-btn {
+    max-height: 50px;
+    width: 150px;
+    padding: 15px;
+    border-radius: 50px;
+    background-color: #59C279;
+    background-color;
+}
+
+.skill-btn:hover {
+    background-color: #168136;
+}
+
+.skill-section {
+    /* Created with https://www.css-gradient.com */
+    background: #F7F7F7;
+    background: -webkit-linear-gradient(right, #F7F7F7, #FDF1D1);
+    background: -moz-linear-gradient(right, #F7F7F7, #FDF1D1);
+    background: linear-gradient(to left, #F7F7F7, #FDF1D1);
+}
+
+/*Contact Form*/
+
+.contact-section {
+    padding: 100px;
+    /* Created with https://www.css-gradient.com */
+    background: #F7F7F7;
+    background: -webkit-linear-gradient(right, #F7F7F7, #F6EDF8);
+    background: -moz-linear-gradient(right, #F7F7F7, #F6EDF8);
+    background: linear-gradient(to left, #F7F7F7, #F6EDF8);
+}
+
+.contact-top {
+    padding-bottom: 50px;
+    text-align: center;
+}
+
+.contact-left {
+    padding-left: 100px;
+    text-align: center;
+
+}
+
+.contact-section .contact-left h1 {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.contact-left card {
+    padding: 10px;
+    border-radius: 15px;
+
+}
+
+.contact-image .card {
+
+    padding: 10px;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.contact-image img {
+    max-width: 300px;
+    max-height: 300px;
+}
