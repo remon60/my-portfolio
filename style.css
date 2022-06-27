@@ -1,119 +1,203 @@
-body{
+body {
     font-family: 'Roboto', sans-serif;
     margin: 0px;
 }
 
 /*Navbar Animation Css*/
-.nav{
+.nav {
     padding-left: 20%;
 }
-.nav a{
+
+.nav a {
     font-size: 20px;
     font-weight: bold;
     color: black;
 }
+
 li {
     padding: 15px 16px;
     display: table-cell;
     text-align: center;
-    position:relative;
-  }
-  
-  li a {
+    position: relative;
+}
+
+li a {
     display: block;
     color: white;
     text-align: center;
     text-decoration: none;
     font-size: 17px;
     letter-spacing: 2.5px;
-  }
-  
-  li a:hover {
+}
+
+li a:hover {
     -moz-transition: all .3s ease-in-out;
     -webkit-transition: all .3s ease-in-out;
     -ms-transition: all .3s ease-in-out;
     -o-transition: all .3s ease-in-out;
     transition: all .3s ease-in-out;
-  }
-  
-  li::after {
-      content: '';
-      display: block;
-      width: 0;
-      position:absolute;
-      left:50%;
-      height: 5px;
-      background: #59C279;
-      transition: cubic-bezier(.77,0,.18,1) 1s;
-  }
-  
-  li:hover::after {
-      width: 80%;
-      left: 10%;
-  }
-  
-  li {
-    transition: cubic-bezier(.77,0,.18,1) 1s;
-  }
-  .nav-btn{
+}
+
+li::after {
+    content: '';
+    display: block;
+    width: 0;
+    position: absolute;
+    left: 50%;
+    height: 5px;
+    background: #59C279;
+    transition: cubic-bezier(.77, 0, .18, 1) 1s;
+}
+
+li:hover::after {
+    width: 80%;
+    left: 10%;
+}
+
+li {
+    transition: cubic-bezier(.77, 0, .18, 1) 1s;
+}
+
+.nav-btn {
     margin-left: 100px;
     max-height: 60px;
     width: 150px;
     padding: 15px;
     border-radius: 50px;
     background-color: #59C279;
-    background-color ;
-  }
-  .nav-btn:hover{
+    background-color;
+}
+
+.nav-btn:hover {
     background-color: #168136;
 }
 
-  /*Intro Part CSS*/
+/*Intro Part CSS*/
 
-  .top-section{
-     /* Created with https://www.css-gradient.com */
+.top-section {
+    /* Created with https://www.css-gradient.com */
     background: #C4FFF7;
     background: -webkit-linear-gradient(right, #C4FFF7, #E3E497);
     background: -moz-linear-gradient(right, #C4FFF7, #E3E497);
-    background: linear-gradient(to left, #C4FFF7, #E3E497);;
-  }
-  .intro-section h3{
-        color:#B3A206;
-        font-weight: bold;
-        font-size: 55px;
-  }
-  .intro-section h1{
-    color:#000000;
+    background: linear-gradient(to left, #C4FFF7, #E3E497);
+    ;
+}
+
+.intro-section h3 {
+    color: #B3A206;
+    font-weight: bold;
+    font-size: 55px;
+}
+
+.intro-section h1 {
+    color: #000000;
     font-weight: bold;
     font-size: 70px;
 }
-.intro-section h4{
-    color:#59C279;
+
+.intro-section h4 {
+    color: #59C279;
     font-weight: bold;
     font-size: 30px;
 }
-.intro-section p{
-    color:#000000;
+
+.intro-section p {
+    color: #000000;
     font-size: 20px;
 }
-.intro-row{
+
+.intro-row {
     padding: 25px;
 }
 
-.intro-btn{
+.intro-btn {
     width: 150px;
     padding: 15px;
     border-radius: 50px;
     background-color: #59C279;
 }
-.intro-btn:hover{
+
+.intro-btn:hover {
     background-color: #168136;
 }
 
 /*Intro Image*/
 
-.intro-img img{
+.intro-img img {
     max-width: 400px;
     max-height: 400px;
-   border-radius: 50%;
+    border-radius: 50%;
+}
+
+/*About Me Section CSS*/
+
+.about-me-section {
+    padding: 100px 0;
+}
+
+.about-me-section h1 {
+    padding: 10px 0;
+    color: #000000;
+    font-weight: bold;
+    font-size: 50px;
+}
+
+.about-me-section p {
+    font-size: 20px;
+    line-height: 0.8cm;
+    color: #9d9d9d;
+}
+
+.about-me-card {
+    margin: 15px;
+    padding: 15px;
+    text-align: center;
+}
+
+.about-me-card h3 {
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.upper-row {
+    margin: 20px 0px;
+}
+
+.lower-row {
+    margin: 20px 0px;
+}
+
+.about-me-card .card {
+    border-radius: 15px;
+    border-top-width: 3px;
+    border-left-width: 3px;
+    border-right-width: 3px;
+}
+
+.about-me-card col {
+    margin: 20px;
+}
+
+.about-me-left {
+    text-align: center;
+    padding: 60px;
+    height: 200px;
+}
+
+.about-me-left h1 {
+    font-size: 150px;
+    font-weight: bold;
+}
+
+.about-me-left p {
+    font-size: 25px;
+    color: black;
+}
+
+.about-me {
+    /* Created with https://www.css-gradient.com */
+    background: #FFC4FA;
+    background: -webkit-linear-gradient(right, #FFC4FA, #DDDEB4);
+    background: -moz-linear-gradient(right, #FFC4FA, #DDDEB4);
+    background: linear-gradient(to left, #FFC4FA, #DDDEB4);
 }
